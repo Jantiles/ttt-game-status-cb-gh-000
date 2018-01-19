@@ -15,6 +15,7 @@ WIN_COMBINATIONS = [
   [2,4,6]
 ]
 def won?(board)
+  win_combination=[]
   WIN_COMBINATIONS.each do |win_array|
     win_index_1 = win_array[0]
     win_index_2 = win_array[1]
@@ -25,7 +26,7 @@ def won?(board)
     position_3 = board[win_index_3]
 
     if position_1 == "X" && position_2 == "X" && position_3 == "X"
-      return 
+      return
     else
       return false
     end
