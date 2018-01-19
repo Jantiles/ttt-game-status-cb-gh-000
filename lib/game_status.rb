@@ -22,6 +22,8 @@ def won?(board)
     win_index_3 = win_array[2]
 
     win_combination << win_index_1
+    win_combination << win_index_2
+    win_combination << win_index_3
 
     position_1 = board[win_index_1]
     position_2 = board[win_index_2]
