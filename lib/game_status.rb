@@ -19,15 +19,9 @@ def won?(board)
 
 
   WIN_COMBINATIONS.each do |win_array|
-    win_combination=["","",""]
-
     win_index_1 = win_array[0]
     win_index_2 = win_array[1]
     win_index_3 = win_array[2]
-
-    win_combination = win_array[0]
-    win_combination = win_array[1]
-    win_combination = win_array[3]
 
     position_1 = board[win_index_1]
     position_2 = board[win_index_2]
