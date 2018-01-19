@@ -19,9 +19,6 @@ def won?(board)
     win_index_1 = win_array[0]
     win_index_2 = win_array[1]
     win_index_3 = win_array[2]
-    puts "#{win_index_1} 11"
-    puts "#{win_index_2} 22"
-    puts "#{win_index_3} 33"
   end
   # position_1 = board[win_index_1]
   # position_2 = board[win_index_2]
