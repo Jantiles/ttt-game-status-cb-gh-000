@@ -20,4 +20,5 @@ def won?(board)
     win_index_2 = charc[1]
     win_index_3 = charc[2]
   end
+  
 end
