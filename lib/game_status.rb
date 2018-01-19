@@ -20,9 +20,9 @@ def won?(board)
       win_index_1 = move_detail[0]
       win_index_2 = move_detail[1]
       win_index_3 = move_detail[2]
+      puts "#{win_index_1}"
     end
   end
-  puts "#{win_index_1}"
   # position_1 = board[win_index_1]
   # position_2 = board[win_index_2]
   # position_3 = board[win_index_3]
