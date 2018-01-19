@@ -15,11 +15,9 @@ WIN_COMBINATIONS = [
   [2,4,6]
 ]
 def won?(board)
-  WIN_COMBINATIONS.each do |charc|
-    win_index_1 = charc[0]
-    win_index_2 = charc[1]
-    win_index_3 = charc[2]
-  end
+  win_index_1 = charc[0]
+  win_index_2 = charc[1]
+  win_index_3 = charc[2]
   position_1 = board[win_index_1]
   position_2 = board[win_index_2]
   position_3 = board[win_index_3]
