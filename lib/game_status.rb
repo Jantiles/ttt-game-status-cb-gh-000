@@ -17,7 +17,7 @@ WIN_COMBINATIONS = [
 def won?(board)
 
 
-  
+  win_combination=["","",""]
   # WIN_COMBINATIONS.each do |win_array|
   #   win_combination=["","",""]
   #
