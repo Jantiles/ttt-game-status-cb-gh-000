@@ -15,8 +15,8 @@ WIN_COMBINATIONS = [
   [2,4,6]
 ]
 def won?(board)
-  win_index_1 = charc[0]
-  win_index_2 = charc[1]
+  win_index_1 = WIN_COMBINATIONS[0]
+  win_index_2 = WIN_COMBINATIONS[1]
   win_index_3 = charc[2]
   position_1 = board[win_index_1]
   position_2 = board[win_index_2]
