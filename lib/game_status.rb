@@ -16,5 +16,6 @@ WIN_COMBINATIONS = [
 ]
 def won?(board)
   board.each do |charc|
+    
 
 end
