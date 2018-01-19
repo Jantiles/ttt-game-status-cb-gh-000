@@ -15,7 +15,7 @@ WIN_COMBINATIONS = [
   [2,4,6]
 ]
 def won?(board)
-  board.each do |charc|
+  WIN_COMBINATIONS.each do |charc|
     
   end
 end
